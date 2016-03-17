@@ -1,1 +1,7 @@
-{"name":"Three-dimension-reconstruction","tagline":"The project aims on creating an application that can generate 3D models of landmarks from 2D images images that are available in public datasets.","body":"# Project Description\r\nThe aim of our project is to construct 3d models of a landmark from publicly available 2d images of the landmark.","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Three-dimension-reconstruction",
+  "tagline": "The project aims on creating an application that can generate 3D models of landmarks from 2D images images that are available in public datasets.",
+  "body": "# Project Description\r\nThe aim of our project is to construct 3d models of a landmark from publicly available 2d images of the landmark.\r\n# Mid Project Presentation\r\n[Mid Project Presentation](https://github.com/as6520/Three-Dimension-Reconstruction/blob/gh-pages/pdf/mid-project.pdf)",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
