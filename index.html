@@ -1,37 +1,25 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Three-dimension-reconstruction : The project aims on creating an application that can generate 3D models of landmarks from 2D images images that are available in public datasets.">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Three-dimension-reconstruction</title>
+    <meta charset="UTF-8">
+    <title>Three-dimension-reconstruction by as6520</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Three-dimension-reconstruction</h1>
+      <h2 class="project-tagline">The project aims on creating an application that can generate 3D models of landmarks from 2D images images that are available in public datasets.</h2>
+      <a href="https://github.com/as6520/Three-Dimension-Reconstruction" class="btn">View on GitHub</a>
+      <a href="https://github.com/as6520/Three-Dimension-Reconstruction/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/as6520/Three-Dimension-Reconstruction/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/as6520/Three-Dimension-Reconstruction">View on GitHub</a>
-
-          <h1 id="project_title">Three-dimension-reconstruction</h1>
-          <h2 id="project_tagline">The project aims on creating an application that can generate 3D models of landmarks from 2D images images that are available in public datasets.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/as6520/Three-Dimension-Reconstruction/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/as6520/Three-Dimension-Reconstruction/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
+    <section class="main-content">
+      <h1>
 <a id="project-description" class="anchor" href="#project-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Description</h1>
 
 <p>The aim of our project is to construct 3d models of a landmark from publicly available 2d images of the landmark.</p>
@@ -40,18 +28,53 @@
 <a id="mid-project-presentation" class="anchor" href="#mid-project-presentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mid Project Presentation</h1>
 
 <p><a href="https://github.com/as6520/Three-Dimension-Reconstruction/blob/gh-pages/pdf/mid-project.pdf">Mid Project Presentation</a></p>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Three-dimension-reconstruction maintained by <a href="https://github.com/as6520">as6520</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+<h1>
+<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h1>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>Three Dimensional reconstruction can be considered as a more expressive mechanism when look at a large collection of unstructured photographs. It can be applied to reconstruct landmarks like Notre-Dame Cathedral or Statue of Liberty from a large dataset of images that is available publicly. The Three Dimensional Representation give a more accurate perspective of the features of the landmarks by showing its different facets in a single representation.</p>
+
+<h2>
+<a id="input-data" class="anchor" href="#input-data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Input Data</h2>
+
+<p>The project uses large number of publicly available images that can be obtained from either flickr or Google images. Dataset used comprises of unstructured images of a landmark from different views.</p>
+
+<h2>
+<a id="algorithm-used" class="anchor" href="#algorithm-used" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Algorithm Used</h2>
+
+<p>The main algorithm used in the project is</p>
+
+<ul>
+<li>Feature Matching: SIFT and approximate nearest neighbour</li>
+<li>Determining Camera Parameter: Structure From Motion</li>
+</ul>
+
+<h2>
+<a id="team-members" class="anchor" href="#team-members" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team Members</h2>
+
+<ul>
+<li>Ameya Shringi <a href="mailto:as6520@g.rit.edu">as6520@g.rit.edu</a>
+</li>
+<li>Vishal Garg <a href="mailto:vg3660@g.rit.edu">vg3660@g.rit.edu</a>
+</li>
+</ul>
+
+<h2>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h2>
+
+<p>Snavely, Noah, Steven M. Seitz, and Richard Szeliski. "Photo tourism: exploring photo collections in 3D." ACM transactions on graphics (TOG). Vol. 25. No. 3. ACM, 2006.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/as6520/Three-Dimension-Reconstruction">Three-dimension-reconstruction</a> is maintained by <a href="https://github.com/as6520">as6520</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
